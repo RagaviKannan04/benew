@@ -24,7 +24,7 @@ app.use('/api',rout) //http://localhost:6000/api/
 //     res.send(`Hello Express home ${username} My age ${age} `)
 // })
 
-mongoose.connect('mongodb+srv://Admin:vc389hiE1S60S0Fy@cluster0.91awbo4.mongodb.net/?retryWrites=true&w=majority').then(()=>{
+mongoose.connect('mongodb+srv://username:password@cluster0.91awbo4.mongodb.net/?retryWrites=true&w=majority').then(()=>{
     console.log('DB Is Connect Succefully')
     app.listen(6000)
 })
